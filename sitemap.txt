@@ -1,6 +1,5 @@
-http://www.randybergida.com
-http://www.randybergida.com/index.html
-http://www.randybergida.com/bio.html
-http://www.randybergida.com/disco.html
-http://www.randybergida.com/projects.html
-http://www.randybergida.com/contact.html
+https://randybergida.com/
+https://randybergida.com/bio
+https://randybergida.com/disco
+https://randybergida.com/projects
+https://randybergida.com/contact
