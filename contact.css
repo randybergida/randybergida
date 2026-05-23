@@ -20,8 +20,8 @@ body {
     font-family: Futura, serif; 
     font-style: italic; 
     font-size: 30px; 
-    position: fixed; 
-    margin-top: 30px; 
+    position: sticky; 
+    top: 0; 
     width: 100%; 
     z-index: 100;
 } 
@@ -111,7 +111,7 @@ body {
     display: block; 
     text-align: center; 
     width: 100%; 
-    margin-top: 120px; /* Increased to account for fixed nav */
+    margin-top: 20px; 
 } 
 
 /*=========Top Content=========*/
@@ -172,6 +172,4 @@ body {
     .bottomcontent p { 
         padding: 0px 20px; 
     } 
-
-
 }
