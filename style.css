@@ -276,7 +276,13 @@ margin-top:12px;
 iframe {
 	width:100%;
 	}
-	
+	.contact-fix {
+    text-align: center;
+}
+
+.contact-fix p {
+    text-align: center;
+}
 }
 
 	
