@@ -156,93 +156,6 @@ text-align:center;
 margin-top:15;
 }
 
-/*=========Contact form=========*/
-
-#box {
-font-family:Helvetica, Arial, san-serif;
-font-size:11px;
-letter-spacing: 1px;
-margin-top:30px;
-width:100%;
-margin-left:auto;
-margin-right:auto;
-max-width:600px;
-}
-
-#box h2 {
-font-size:11px;
-font-weight:500;
-margin-top:-1px;
-text-align:left;
-}
-#box fieldset {
-border:none;
-overflow:hidden;
-padding:0px;
-}
-#box ul {
-list-style:none; 
-margin-left:-40px; 
-}
-
-#box li {
-margin-top:10px;
-}
-
-label {
-display:inline-block;
-margin-bottom:4px;
-text-align:left;
-margin-left:auto;
-margin-right:auto;
-width:100%;
-max-width:300px;
-}
-input {
-background-color:#f8f8f8;
-border:#D1D1D1 solid 1px;
-font-size:11px;
-letter-spacing: 1px;
-margin-bottom:8px;
-outline: none;
-padding:3px;
-}
-input:focus {
-background-color:#FFF;
-}
-.length {
-width:300px;
-}
-textarea {
-/*background-color:#f8f8f8;*/
-border:#D1D1D1 solid 1px;
-outline: none;
-vertical-align: top;
-width:300px;
-}
-/*textarea:focus {
-background-color:#FFF;
-}*/
-#message {
-background-color:#f8f8f8; /*test*/
-font-size:11px;
-margin-top:2px;
-height:200px;
-}
-#message:focus {
-background-color:#FFF; /*test*/
-}
-.submit_button {
-background-color:#FFF;
-border:none;
-cursor:crosshair; 
-font-family:Helvetica, Arial, san-serif;
-font-size:12px;
-letter-spacing: 1px;
-margin-left:-3px;
-text-decoration:underline;
-}
-
 /*=========footer=========*/
 .mainfooter {
 font-family:Helvetica, Arial, san-serif;
@@ -275,7 +188,4 @@ padding: 0px 20px;
 padding: 0px 20px;
 }
 
-iframe {
-width:100%;
-}
 }
