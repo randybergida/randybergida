@@ -132,15 +132,13 @@ margin-top:12px;
 /*=========Content=========*/
 
 .maincontent {
-	font-size: 13px;
-	line-height: 20px;
-	overflow: hidden;
-	display: block;
-	text-align: center;
-	width: 100%;
-	margin-top: 80px;
-	}
-	
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;        /* Changed from inline-block to block */
+    margin-top: 80px;
+    text-align: center; /* This centers the box inside */
+}
+
 /*=========Top Content=========*/	
 
 	.topcontent {
@@ -165,14 +163,13 @@ margin-top:12px;
     letter-spacing: 1px;
     margin-top: 30px;
     
-    /* REMOVE width: 100%; and replace with: */
-    display: inline-block; 
-    
-    /* KEEP these */
+    display: inline-block; /* Forces the box to wrap around the text */
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left; /* This keeps your text inside the box left-aligned */
+    width: 100%;           /* Ensures it doesn't exceed 600px */
+    
+    margin-left: auto;     /* Centering */
+    margin-right: auto;    /* Centering */
+    text-align: left;      /* Keeps your text clean and readable */
 }
 
 #box h2 {
