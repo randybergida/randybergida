@@ -1,175 +1,92 @@
+/* Core Layout */
+* { box-sizing: border-box; }
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: #fff; 
+    width: 100%;
+}
+
 #wrapper { 
     max-width: 1240px; 
     margin: 0 auto; 
     text-align: center;
-} 
+    padding: 0 20px; /* Prevents touching edges on mobile */
+}
 
-/*=========Body=========*/ 
-
-body { 
-    background-color: #fff; 
-    margin: 0; 
-    padding: 0;
-    width: 100%; 
-} 
-
-/*=========Navigation=========*/ 
-
-.mainheader nav { 
-    background: #fff; 
-    font-family: Futura, serif; 
-    font-style: italic; 
-    font-size: 30px; 
-    position: sticky; 
-    top: 0; 
-    width: 100%; 
-    z-index: 100;
-} 
-
-.mainheader a { 
-    color: inherit; 
-} 
-
-.mainheader small { 
-    font-size: 14px; 
-} 
-
-.mainheader ul { 
-    margin: 0; 
-    padding: 0; 
-} 
-
-.mainheader li { 
-    list-style: none; 
-    font-size: 25px; 
-    padding: 5px 0; 
-} 
-
-.mainheader li a { 
-    text-decoration: none; 
-} 
-
-.mainheader li a:hover { 
-    text-decoration: underline; 
-} 
-
-/*=========Burger=========*/ 
-
-.burger { 
-    display: inline-block; 
-    border: 0; 
-    background: none; 
-    outline: 0; 
-    padding: 0; 
-    cursor: pointer; 
-    border-bottom: 4px solid currentColor; 
-    width: 28px; 
-    transition: border-bottom 1s ease-in-out; 
-    margin-top: 12px; 
-} 
-
-.burger:before { 
-    content: ""; 
-    display: block; 
-    border-bottom: 4px solid currentColor; 
-    width: 100%; 
-    margin-bottom: 5px; 
-    transition: transform 0.5s ease-in-out; 
-} 
-
-.burger:after { 
-    content: ""; 
-    display: block; 
-    border-bottom: 4px solid currentColor; 
-    margin-bottom: 5px; 
-    transition: transform 0.5s ease-in-out; 
-} 
-
-.burger-check { 
-    display: none; 
-} 
-
-.burger-check:checked ~ .burger { 
-    border-bottom: 4px solid transparent; 
-} 
+/* Header & Nav */
+.mainheader { padding: 20px 0; }
 
 .navigation { 
     overflow: hidden; 
     max-height: 0; 
     transition: max-height 0.5s ease-in-out; 
-} 
-
-.burger-check:checked ~ .navigation { 
-    max-height: 500px; 
-} 
-
-/*=========Content=========*/ 
-
-.maincontent { 
-    font-size: 13px; 
-    line-height: 20px; 
-    display: block; 
-    text-align: center; 
-    width: 100%; 
-    margin-top: 20px; 
-} 
-
-/*=========Top Content=========*/
-
-.topcontent { 
-    margin: 0 auto; 
-    width: 100%; 
 }
+
+.burger-check:checked ~ .navigation { max-height: 500px; }
+
+.navigation ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+.navigation li { 
+    font-family: Futura, serif; 
+    font-style: italic; 
+    font-size: 25px; 
+    padding: 10px 0; 
+}
+
+.navigation a { 
+    text-decoration: none; 
+    color: #000; 
+}
+
+.navigation a:hover { text-decoration: underline; }
+
+/* Burger Menu */
+.burger { 
+    display: inline-block; 
+    cursor: pointer; 
+    width: 28px; 
+    border-bottom: 4px solid #000; 
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.burger:before, .burger:after { 
+    content: ""; 
+    display: block; 
+    border-bottom: 4px solid #000; 
+    margin-bottom: 5px; 
+}
+
+.burger-check { display: none; }
+
+/* Content */
+.maincontent { margin-top: 20px; }
 
 .topcontent h2 { 
     font-family: Futura, serif; 
     font-style: italic; 
     font-size: 20px; 
-    text-align: center; 
-    margin-top: 15px; 
-} 
-
-/*=========Bottom Content=========*/
+}
 
 .bottomcontent {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
-    margin: 30px auto 0 auto;
-    width: 90%;
+    margin: 30px auto;
     max-width: 600px;
-    text-align: center;
 }
 
-.bottomcontent a {
-    text-decoration: underline;
-    color: #000;
-}
+/* Footer */
+.mainfooter { padding: 50px 0; }
+.mainfooter img { width: 25px; padding: 0 5px; }
 
-/*=========footer=========*/
-
-.mainfooter { 
-    font-family: Helvetica, Arial, sans-serif; 
-    font-size: 11px; 
-    padding-top: 100px; 
-    text-align: center; 
-    width: 100%; 
-} 
-
-.mainfooter img { 
-    width: 25px; 
-    padding: 0px 5px; 
-} 
-
-/*=========mobile=========*/ 
-
-@media screen and (max-width: 414px) { 
-    .topcontent img { 
-        margin: 0 auto; 
-        width: 100%; 
-    }
-    
-    .bottomcontent p { 
-        padding: 0px 20px; 
-    } 
+/* Mobile Adjustment */
+@media screen and (max-width: 414px) {
+    .bottomcontent p { padding: 0 10px; }
 }
