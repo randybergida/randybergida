@@ -117,11 +117,12 @@ body {
     font-size: 13px; 
     line-height: 20px; 
     overflow: hidden; 
-    display: inline-block; 
+    /* Remove display: inline-block and use block instead */
+    display: block; 
     text-align: center; 
     width: 100%; 
     margin-top: 80px; 
-} 
+}
 
 /*=========Top Content=========*/
 
