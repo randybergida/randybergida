@@ -6,12 +6,11 @@ margin: auto
 /*=========Body=========*/
 
 body {
-    background-color: #fff;
+    background-color:#fff;
     margin: 0;
-    text-align: center; /* This handles older browsers */
+    padding: 0;
     width: 100%;
 }
-
 /*=========Navigation=========*/
 
 .mainheader nav {
@@ -128,15 +127,20 @@ margin-top:12px;
 }
 
 /*=========Content=========*/
-
 .maincontent {
     font-size: 13px;
     line-height: 20px;
-    overflow: hidden;
-    display: block; /* Changed from inline-block */
-    margin: 80px auto 0 auto; /* The "auto" here is what centers the div */
+    margin-top: 80px;
+    text-align: center;
     width: 100%;
-    max-width: 1240px; /* Limits the width so it doesn't stretch too far */
+}
+
+.bottomcontent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px; /* This centers the text block */
+}
 /*=========Top Content=========*/
 
 .topcontent {
