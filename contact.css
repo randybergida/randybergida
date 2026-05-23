@@ -157,103 +157,64 @@ margin-top:12px;
 	margin-top:15;
 	}
 
-/*=========Contact form=========*/
+/*=========Bottom Content=========*/
 
-#box {
-	font-family:Helvetica, Arial, san-serif;
-	font-size:11px;
-	letter-spacing: 1px;
-	margin-top:30px;
-	width:100%;
+	.bottomcontent {
+	color: #121212;
 	margin-left:auto;
 	margin-right:auto;
 	max-width:600px;
-	}
-
-#box h2 {
-	font-size:11px;
-	font-weight:500;
-	margin-top:-1px;
-	text-align:left;
-	}
-		
-#box fieldset {
-	border:none;
-	overflow:hidden;
-	padding:0px;
-	}
-	
-#box ul {
-	list-style:none; 
-	margin-left:-40px; 
-	}
-
-#box li {
-	margin-top:10px;
-	}
-
-label {
-	display:inline-block;
-	margin-bottom:4px;
-	text-align:left;
-	margin-left:auto;
-	margin-right:auto;
 	width:100%;
-	max-width:300px;
+	}
+
+	.bottomcontent h2 {
+	font-family: Futura, serif;
+  	font-style: italic;
+  	font-size: 20px;
+	text-align:center;
+	margin-top:20px;
 	}
 	
-input {
-	background-color:#f8f8f8;
-	border:#D1D1D1 solid 1px;
+	.bottomcontent h3 {
+	font-family: Helvetica, Arial, san-serif;
+	font-size:11px;
+	font-weight:550;
+	letter-spacing: 1px;
+	margin-top:20px;
+	margin-bottom:0px;
+	text-align:left;
+	}
+	
+	.bottomcontent h4 {
+	color: #6b6b6b;
+	font-family: Helvetica, Arial, san-serif;
+	font-size:9px;
+	font-weight:200;
+	letter-spacing: 1px;
+	margin-top:0px;
+	text-align:left;
+	}
+	
+	.bottomcontent p {
+	font-family: Helvetica, Arial, san-serif;
 	font-size:11px;
 	letter-spacing: 1px;
-	margin-bottom:8px;
-	outline: none;
-	padding:3px;
+	margin-top:1px;
+	text-align:left;
 	}
 	
-input:focus {
-	background-color:#FFF;
-	}
-	
-.length {
-	width:300px;
-	}
-	
-textarea {
-	/*background-color:#f8f8f8;*/
-	border:#D1D1D1 solid 1px;
-	outline: none;
-	vertical-align: top;
-	width:300px;
-	}
-	
-/*textarea:focus {
-	background-color:#FFF;
-	}*/
-	
-#message {
-	background-color:#f8f8f8; /*test*/
-	font-size:11px;
-	margin-top:2px;
-	height:200px;
-	}
-	
-#message:focus {
-	background-color:#FFF; /*test*/
-	}
-	
-.submit_button {
-	background-color:#FFF;
-	border:none;
-	cursor:crosshair; 
-	font-family:Helvetica, Arial, san-serif;
-	font-size:12px;
-	letter-spacing: 1px;
-	margin-left:-3px;
+	.bottomcontent a:link, .bottomcontent a:visited {
+	color:#ff7800;
 	text-decoration:underline;
 	}
-
+	
+	.bottomcontent iframe {
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:600px;
+	width:100%;
+	}
 /*=========footer=========*/	
 	
 	.mainfooter {
