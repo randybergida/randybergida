@@ -1,15 +1,15 @@
 #wrapper { 
-    width: 1240px;  
-    margin: auto; 
+    max-width: 1240px; 
+    margin: 0 auto; 
+    text-align: center;
 } 
 
 /*=========Body=========*/ 
 
 body { 
     background-color: #fff; 
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center; 
+    margin: 0; 
+    padding: 0;
     width: 100%; 
 } 
 
@@ -23,6 +23,7 @@ body {
     position: fixed; 
     margin-top: 30px; 
     width: 100%; 
+    z-index: 100;
 } 
 
 .mainheader a { 
@@ -64,13 +65,7 @@ body {
     border-bottom: 4px solid currentColor; 
     width: 28px; 
     transition: border-bottom 1s ease-in-out; 
-    -webkit-transition: border-bottom 1s ease-in-out; 
     margin-top: 12px; 
-} 
-
-.burger::-moz-focus-inner { 
-    border: 0; 
-    padding: 0; 
 } 
 
 .burger:before { 
@@ -80,7 +75,6 @@ body {
     width: 100%; 
     margin-bottom: 5px; 
     transition: transform 0.5s ease-in-out; 
-    -webkit-transition: -webkit-transform 0.5s ease-in-out; 
 } 
 
 .burger:after { 
@@ -89,7 +83,6 @@ body {
     border-bottom: 4px solid currentColor; 
     margin-bottom: 5px; 
     transition: transform 0.5s ease-in-out; 
-    -webkit-transition: -webkit-transform 0.5s ease-in-out; 
 } 
 
 .burger-check { 
@@ -98,7 +91,6 @@ body {
 
 .burger-check:checked ~ .burger { 
     border-bottom: 4px solid transparent; 
-    transition: border-bottom 0.8s ease-in-out; 
 } 
 
 .navigation { 
@@ -116,19 +108,16 @@ body {
 .maincontent { 
     font-size: 13px; 
     line-height: 20px; 
-    overflow: hidden; 
-    /* Remove display: inline-block and use block instead */
     display: block; 
     text-align: center; 
     width: 100%; 
-    margin-top: 80px; 
-}
+    margin-top: 120px; /* Increased to account for fixed nav */
+} 
 
 /*=========Top Content=========*/
 
 .topcontent { 
-    margin-right: auto; 
-    margin-left: auto; 
+    margin: 0 auto; 
     width: 100%; 
 }
 
@@ -140,7 +129,7 @@ body {
     margin-top: 15px; 
 } 
 
-/*=========Bottom Content (Replaces Contact Box)=========*/
+/*=========Bottom Content=========*/
 
 .bottomcontent {
     font-family: Helvetica, Arial, sans-serif;
@@ -176,12 +165,11 @@ body {
 
 @media screen and (max-width: 414px) { 
     .topcontent img { 
-        margin-left: auto; 
-        margin-right: auto; 
+        margin: 0 auto; 
         width: 100%; 
     }
     
-    .bottomcontent h3, .bottomcontent p, .bottomcontent h4 { 
+    .bottomcontent p { 
         padding: 0px 20px; 
     } 
 
