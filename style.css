@@ -319,3 +319,27 @@ padding:0px 5px;
 .maincontent.disco h3 {
     font-weight: 400 !important;
 }
+
+/*=========Projects Page Specifics=========*/
+.projects-page .topcontent h2 {
+    font-family: Futura, serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projects-page .topcontent a:link, 
+.projects-page .topcontent a:visited {
+    color: #121212;
+    text-decoration: underline;
+}
+
+.projects-page .topcontent img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    width: 100%;
+}
