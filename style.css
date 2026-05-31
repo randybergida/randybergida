@@ -180,13 +180,14 @@ max-width:600px;
 width:100%; 
 } 
 
+.bottomcontent h1, 
 .bottomcontent h2 { 
-font-family: Futura, serif; 
-  font-style: italic; 
-  font-size: 20px; 
-text-align:center; 
-margin-top:20px; 
-} 
+    font-family: Futura, serif; 
+    font-style: italic; 
+    font-size: 25px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
 .bottomcontent h3 { 
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 15px; 
