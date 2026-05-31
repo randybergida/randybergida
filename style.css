@@ -195,32 +195,33 @@ margin-top:12px;
 	}
 	
 	.bottomcontent h3 {
-	font-family: Helvetica, Arial, san-serif;
-	font-size:11px;
-	font-weight:550;
-	letter-spacing: 1px;
-	margin-top:20px;
-	margin-bottom:0px;
-	text-align:left;
-	}
-	
-	.bottomcontent h4 {
-	color: #6b6b6b;
-	font-family: Helvetica, Arial, san-serif;
-	font-size:9px;
-	font-weight:200;
-	letter-spacing: 1px;
-	margin-top:0px;
-	text-align:left;
-	}
-	
-	.bottomcontent p {
-	font-family: Helvetica, Arial, san-serif;
-	font-size:12px;
-	letter-spacing: 1px;
-	margin-top:1px;
-	text-align:left;
-	}
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.bottomcontent h4 {
+    color: #6b6b6b;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.bottomcontent p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; /* Sets line height to 160% of font size */
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    text-align: left;
+}
 	
 	.bottomcontent a:link, .bottomcontent a:visited {
 	color:#ff7800;
