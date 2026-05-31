@@ -335,19 +335,22 @@ padding:0px 5px;
     padding: 0;
 }
 
+/* Update these two blocks in your CSS */
+
 .projects-page .topcontent ul li {
-    margin-bottom: 10px;
+    margin-bottom: 25px; /* Increased to create space below the list item */
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px; 
     font-weight: bold;
 }
 
-/* Projects page links: Black default, Orange hover */
 .projects-page .topcontent a:link, 
 .projects-page .topcontent a:visited {
     color: #121212;
     text-decoration: underline;
     transition: color 0.3s ease;
+    display: inline-block; /* Required to allow top/bottom margin */
+    margin-bottom: 10px;    /* This adds the padding you requested below the link */
 }
 
 .projects-page .topcontent a:hover {
