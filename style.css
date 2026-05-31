@@ -329,6 +329,19 @@ padding:0px 5px;
     margin-bottom: 50px;
 }
 
+.projects-page .topcontent ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.projects-page .topcontent ul li {
+    margin-bottom: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px; 
+    font-weight: bold;
+}
+
 .projects-page .topcontent a:link, 
 .projects-page .topcontent a:visited {
     color: #121212;
@@ -336,10 +349,8 @@ padding:0px 5px;
 }
 
 .projects-page .topcontent img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 40px;
+    display: block;
+    margin: 5px auto 60px auto; 
     max-width: 600px;
     width: 100%;
 }
