@@ -299,3 +299,7 @@ padding:0px 5px;
     .contact-page .bottomcontent h4 {
         text-align: center;
     }
+/*=========Discography Override=========*/
+.maincontent.disco h3 {
+    font-weight: 400 !important;
+}
