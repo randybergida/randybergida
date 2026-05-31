@@ -239,7 +239,6 @@ width:100%;
 width:25px; 
 padding:0px 5px; 
 } 
-/*=========mobile=========*/ 
 
 /*=========mobile=========*/ 
 @media screen and (max-width:414px) { 
@@ -267,6 +266,34 @@ padding:0px 5px;
         width:100%; 
 }
 }
+
+/*=========Discography Columns=========*/
+.maincontent.disco {
+    max-width: 600px;
+    margin: 80px auto 0 auto;
+}
+
+.leftcolumn, .centercolumn, .rightcolumn {
+    width: 31%;
+}
+
+.leftcolumn { float: left; margin-right: 3.5%; }
+.centercolumn { display: inline-block; margin-right: 3.5%; }
+.rightcolumn { float: right; }
+
+.project1 { margin-bottom: 12%; text-align: center; }
+.project1 img { margin-bottom: 4%; width: 100%; }
+.project1 h2, .project1 h3 { font-size: 11px; margin-bottom: 2px; }
+.project1 h4 { font-size: 9px; margin-top: 0px; }
+
+@media screen and (max-width: 414px) {
+    .leftcolumn, .centercolumn, .rightcolumn {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
 .contact-page .bottomcontent p,
     .contact-page .bottomcontent h3,
     .contact-page .bottomcontent h4 {
