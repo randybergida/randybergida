@@ -256,3 +256,8 @@ iframe {
 width:100%; 
 } 
 }
+.contact-page .bottomcontent p,
+    .contact-page .bottomcontent h3,
+    .contact-page .bottomcontent h4 {
+        text-align: center;
+    }
