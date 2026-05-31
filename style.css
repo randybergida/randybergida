@@ -336,7 +336,7 @@ padding:0px 5px;
 }
 
 .projects-page .topcontent ul li {
-    margin-bottom: 50px; /* Controls the space between the end of one project and the start of the next */
+    margin-bottom: 80px; /* Controls the space between the end of one project and the start of the next */
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px; 
     font-weight: bold;
