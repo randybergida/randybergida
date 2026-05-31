@@ -267,25 +267,41 @@ padding:0px 5px;
 }
 }
 
-/*=========Discography Columns=========*/
+/*=========Discography Columns Layout=========*/
 .maincontent.disco {
-    max-width: 600px;
+    max-width: 1000px; 
     margin: 80px auto 0 auto;
+    overflow: visible;
+    display: block;
 }
 
+/* Increased width from 31% to 32% to give images more breathing room */
 .leftcolumn, .centercolumn, .rightcolumn {
-    width: 31%;
+    width: 32%; 
 }
 
-.leftcolumn { float: left; margin-right: 3.5%; }
-.centercolumn { display: inline-block; margin-right: 3.5%; }
+.leftcolumn { float: left; margin-right: 1%; }
+.centercolumn { display: inline-block; margin-right: 1%; }
 .rightcolumn { float: right; }
 
 .project1 { margin-bottom: 12%; text-align: center; }
-.project1 img { margin-bottom: 4%; width: 100%; }
-.project1 h2, .project1 h3 { font-size: 11px; margin-bottom: 2px; }
-.project1 h4 { font-size: 9px; margin-top: 0px; }
 
+/* Forces the images to be as large as the column allows */
+.project1 img { 
+    margin-bottom: 8px; 
+    width: 100%; 
+    max-width: 300px; /* You can increase this number to make them even bigger */
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*=========Discography Typography=========*/
+.maincontent.disco h2 { font-size: 14px; font-weight: bold; margin-bottom: 2px; }
+.maincontent.disco h3 { font-size: 14px; font-weight: 400 !important; margin-bottom: 2px; }
+.maincontent.disco h4 { font-size: 12px; color: #6b6b6b; margin-top: 0px; }
+
+/* Mobile Reset */
 @media screen and (max-width: 414px) {
     .leftcolumn, .centercolumn, .rightcolumn {
         float: none;
