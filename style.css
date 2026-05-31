@@ -21,7 +21,7 @@ body {
     position: fixed;
     margin-top: 30px;
     width: 100%;
-    z-index: 1000; /* Keeps nav on top */
+    z-index: 1000;
 }
 
 .mainheader a { color: inherit; }
@@ -41,8 +41,6 @@ body {
 
 /*=========Content=========*/
 .maincontent {
-    font-size: 16px;
-    line-height: 1.6;
     overflow: hidden;
     display: inline-block;
     text-align: center;
@@ -67,8 +65,6 @@ body {
     width: 100%;
     text-align: center;
 }
-
-.bottomcontent h2 { font-family: Futura, serif; font-style: italic; font-size: 20px; text-align: center; margin-top: 20px; }
 
 .bottomcontent h3 {
     font-family: Helvetica, Arial, sans-serif;
@@ -105,7 +101,7 @@ body {
 /*=========footer=========*/
 .mainfooter { 
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 14px; 
+    font-size: 14px; /* Increased for better legibility */
     padding-top: 100px; 
     padding-bottom: 30px;
     text-align: center; 
@@ -118,18 +114,10 @@ body {
 @media screen and (max-width: 414px) {
     .topcontent img { width: 100%; }
     
-    .bottomcontent h3, 
-    .bottomcontent h4, 
-    .bottomcontent p,
+    .bottomcontent, 
     .mainfooter {
         padding-left: 20px;
         padding-right: 20px;
+        box-sizing: border-box;
     }
-
-    .bottomcontent p {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    iframe { width: 100%; }
 }
