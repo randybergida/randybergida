@@ -362,3 +362,11 @@ padding:0px 5px;
     max-width: 600px;
     width: 100%;
 }
+
+/* Fix for images inside articles on mobile */
+.bottomcontent article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; /* Adds breathing room above and below the image */
+}
