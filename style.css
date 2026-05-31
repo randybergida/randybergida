@@ -335,22 +335,21 @@ padding:0px 5px;
     padding: 0;
 }
 
-/* Update these two blocks in your CSS */
-
 .projects-page .topcontent ul li {
-    margin-bottom: 25px; /* Increased to create space below the list item */
+    margin-bottom: 50px; /* Controls the space between the end of one project and the start of the next */
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px; 
     font-weight: bold;
 }
 
+/* Link stays inline, we just add padding to the bottom */
 .projects-page .topcontent a:link, 
 .projects-page .topcontent a:visited {
     color: #121212;
     text-decoration: underline;
     transition: color 0.3s ease;
-    display: inline-block; /* Required to allow top/bottom margin */
-    margin-bottom: 10px;    /* This adds the padding you requested below the link */
+    padding-bottom: 15px; /* Adds space under the text without breaking the layout */
+    display: block;      /* This ensures the padding applies correctly */
 }
 
 .projects-page .topcontent a:hover {
@@ -359,7 +358,7 @@ padding:0px 5px;
 
 .projects-page .topcontent img {
     display: block;
-    margin: 5px auto 60px auto; 
+    margin: 5px auto 0 auto; /* Removed the 60px bottom margin to let the li handle it */
     max-width: 600px;
     width: 100%;
 }
