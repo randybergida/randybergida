@@ -241,20 +241,31 @@ padding:0px 5px;
 } 
 /*=========mobile=========*/ 
 
+/*=========mobile=========*/ 
 @media screen and (max-width:414px) { 
 
-.topcontent img { 
-margin-left:auto; 
-margin-right:auto; 
-width:100%; 
-}
-.bottomcontent h3, .bottomcontent h4, .bottomcontent p, .mainfooter { 
-padding: 0px 20px; 
-} 
+    .topcontent img { 
+        margin-left:auto; 
+        margin-right:auto; 
+        width:100%; 
+    }
 
-iframe { 
-width:100%; 
-} 
+    /* Padding for the blog content */
+    .bottomcontent h3, .bottomcontent h4, .bottomcontent p { 
+        padding: 0px 20px; 
+    } 
+
+    /* Footer specifically centered and padded */
+    .mainfooter { 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        text-align: center; /* Ensures text stays centered */
+        box-sizing: border-box; /* Ensures padding doesn't push the width out */
+    } 
+
+    iframe { 
+        width:100%; 
+}
 }
 .contact-page .bottomcontent p,
     .contact-page .bottomcontent h3,
