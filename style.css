@@ -342,10 +342,16 @@ padding:0px 5px;
     font-weight: bold;
 }
 
+/* Projects page links: Black default, Orange hover */
 .projects-page .topcontent a:link, 
 .projects-page .topcontent a:visited {
     color: #121212;
     text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.projects-page .topcontent a:hover {
+    color: #ff7800;
 }
 
 .projects-page .topcontent img {
