@@ -314,14 +314,16 @@ padding:0px 5px;
 }
 
 .maincontent.disco h2 { 
-    font-size: 16px; 
+    font-size: 15px; 
     font-weight: bold; 
-    margin-bottom: 0px; 
+    margin-bottom: 0px; !important;
+    line-height: 1.1;
 }
 
 .maincontent.disco h3 { 
-    font-size: 15px; 
+    font-size: 14px; 
     font-weight: 400 !important; 
+    margin-top: 0px !important;
     margin-bottom: 2px; 
 }
 
