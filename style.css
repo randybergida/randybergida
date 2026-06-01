@@ -412,3 +412,9 @@ padding:0px 5px;
 .bottomcontent article {
     margin-bottom: 80px; /* Increased from default to create clear separation */
 }
+
+.bottomcontent hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0; /* Makes it a subtle, modern light grey */
+    margin: 40px 0;               /* Adjust this if you want it more/less "cramped" */
+}
