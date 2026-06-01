@@ -306,9 +306,30 @@ padding:0px 5px;
 }
 
 /*=========Discography Typography=========*/
-.maincontent.disco h2 { font-size: 14px; font-weight: bold; margin-bottom: 2px; }
-.maincontent.disco h3 { font-size: 14px; font-weight: 400 !important; margin-bottom: 2px; }
-.maincontent.disco h4 { font-size: 12px; color: #6b6b6b; margin-top: 0px; }
+.maincontent.disco h2, 
+.maincontent.disco h3, 
+.maincontent.disco h4 { 
+    font-family: Helvetica, Arial, sans-serif; 
+    line-height: 1.4; 
+}
+
+.maincontent.disco h2 { 
+    font-size: 15px; 
+    font-weight: bold; 
+    margin-bottom: 2px; 
+}
+
+.maincontent.disco h3 { 
+    font-size: 14px; 
+    font-weight: 400 !important; 
+    margin-bottom: 2px; 
+}
+
+.maincontent.disco h4 { 
+    font-size: 12px; 
+    color: #6b6b6b; 
+    margin-top: 0px; 
+}
 
 /* Mobile Reset */
 @media screen and (max-width: 414px) {
@@ -324,10 +345,6 @@ padding:0px 5px;
     .contact-page .bottomcontent h4 {
         text-align: center;
     }
-/*=========Discography Override=========*/
-.maincontent.disco h3 {
-    font-weight: 400 !important;
-}
 
 /*=========Projects Page Specifics=========*/
 .projects-page .topcontent h2 {
