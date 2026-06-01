@@ -152,9 +152,10 @@ width:100%;
 .topcontent h2 { 
     font-family: Futura, serif; 
     font-style: italic; 
-    font-size: 20px; 
+    font-size: 22px; 
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Force the bio image to behave */
@@ -196,9 +197,10 @@ width:100%;
 .bottomcontent h2 { 
     font-family: Futura, serif; 
     font-style: italic; 
-    font-size: 20px; 
+    font-size: 22px; 
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .bottomcontent h3 { 
     font-family: Helvetica, Arial, sans-serif; 
