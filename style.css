@@ -147,6 +147,16 @@ margin-right:auto;
 margin-left:auto; 
 width:100%; 
 }
+
+.topcontent h1, 
+.topcontent h2 { 
+    font-family: Futura, serif; 
+    font-style: italic; 
+    font-size: 20px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
 /* Force the bio image to behave */
 .topcontent img {
     display: block;
