@@ -439,3 +439,15 @@ padding:0px 5px;
     font-size: 20px;
     margin-top: 0;
 }
+
+.band-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.song-title {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #555; /* Optional: adds a nice subtle contrast */
+}
