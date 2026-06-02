@@ -283,6 +283,7 @@ padding:0px 5px;
     display: flex;        /* This turns on the grid flow */
     flex-wrap: wrap;      /* This allows items to wrap to the next line */
     justify-content: center; /* Centers the items */
+    align-items: flex-start;
 }
 
 /* Update your project class */
