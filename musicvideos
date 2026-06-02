@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Music Videos | Randy Bergida</title>
+    <meta name="description" content="Watch music videos produced and recorded by Randy Bergida.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="image/fav.png">
+</head>
+
+<body class="videos-page">
+
+<header class="mainheader">
+    <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+    <nav id="navigation1" class="navigation">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/bio">Bio</a></li>
+            <li><a href="/disco">Discography</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/musicvideos">Music Videos</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="maincontent">
+    <div class="bottomcontent">
+        <h1>Music Videos</h1>
+        
+        <article>
+            <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/nRBDWA-RleE?si=Ld7159GM9w9barvb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe>
+            <h3>The Letter Yellow | On The Other Side</h3>
+        </article>
+
+        <article>
+            <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/S7ZkH_V5z9s?si=zef2N9SE4iBGq_9O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe>
+            <h3>The Letter Yellow | Summer in the City</h3>
+        </article>
+        
+        
+    </div>
+</div>
+
+<footer class="mainfooter">
+    <p>&copy; 2026 Randy Bergida</p>
+    <a href="https://www.facebook.com/randybergida" class="facebook"><img src="image/facebook.png"></a>
+    <a href="https://www.instagram.com/randybergida/?hl=en" class="facebook"><img src="image/instagram.png"></a>
+</footer>
+
+</body>
+</html>
