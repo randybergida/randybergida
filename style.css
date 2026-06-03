@@ -294,12 +294,9 @@ padding:0px 5px;
 }
 
 .instrumental-header .song-title {
-    display: block;        /* This allows the line-height to control the spacing */
-    line-height: 1.0;      /* Tighten this up - try 1.0, 0.8, or 0.5 */
     font-weight: normal;
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 5px;       /* Optional: control space between band name and title */
+    font-size: 0.9em; /* Matches your music videos */
+    color: #555; 
 }
 
 /*=========Discography Grid Layout=========*/
