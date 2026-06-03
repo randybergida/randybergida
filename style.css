@@ -340,6 +340,12 @@ padding:0px 5px;
     margin-top: 0px; 
 }
 
+.section-divider {
+    flex-basis: 100%;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 40px auto; /* Adjust vertical spacing as needed */
+}
 
 .contact-page .bottomcontent p,
     .contact-page .bottomcontent h3,
