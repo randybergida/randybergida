@@ -277,7 +277,7 @@ padding:0px 5px;
 }
 
 /*=========Instrumental Section Header=========*/
-.topcontent h3.instrumental-header { 
+.instrumental-header { 
     font-family: Futura, serif; 
     font-style: italic; 
     font-size: 24px;          
@@ -287,13 +287,15 @@ padding:0px 5px;
     text-align: center;
 }
 
-.topcontent h3.instrumental-header .band-name {
+.instrumental-header .band-name {
     display: block;
     font-weight: bold;
+    font-size: 1.1em; /* Matches your music videos */
 }
 
-.topcontent h3.instrumental-header .song-title {
+.instrumental-header .song-title {
     font-weight: normal;
+    font-size: 0.9em; /* Matches your music videos */
     color: #555; 
 }
 
