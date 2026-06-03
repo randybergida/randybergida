@@ -482,8 +482,3 @@ padding:0px 5px;
     font-size: 0.9em;
     color: #555; /* Optional: adds a nice subtle contrast */
 }
-
-/* Highly specific override for the instrumental section gap */
-.maincontent.disco:nth-of-type(2) .project1 {
-    margin-top: -30px !important; 
-}
