@@ -482,3 +482,8 @@ padding:0px 5px;
     font-size: 0.9em;
     color: #555; /* Optional: adds a nice subtle contrast */
 }
+
+/* Tighten the gap between the "NYCM Originals Series" title and the albums below */
+.section-divider + .topcontent + .maincontent.disco .project1 {
+    margin-top: -20px; 
+}
