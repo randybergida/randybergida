@@ -255,6 +255,15 @@ width:25px;
 padding:0px 5px; 
 } 
 
+/* Footer link color fix */
+footer a {
+    color: #ff7800 !important;
+}
+
+/* Optional: slightly lighter hover effect for the orange */
+footer a:hover {
+    color: #ff9933 !important; 
+}
 /*=========mobile=========*/ 
 @media screen and (max-width:414px) { 
 
